@@ -7,11 +7,11 @@ module.exports = {
     './app/app.jsx'
   ],
   externals: {
-    jquery: 'jQuery'
+    jQuery: 'jQuery'
   },
   plugins: [
     new webpack.ProvidePlugin({
-      '$': 'jquery',
+      '$': 'jQuery',
       'jQuery': 'jquery'
     })
   ],
@@ -26,7 +26,8 @@ module.exports = {
       aplicationStyles: 'app/styles/app.scss',
       Nav: 'app/components/Nav.jsx',
       Timer: 'app/components/Timer.jsx',
-      Countdown: 'app/components/Countdown.jsx'
+      Countdown: 'app/components/Countdown.jsx',
+      Clock: 'app/components/Clock.jsx',
     },
     extensions: ['', '.js', '.jsx']
   },
