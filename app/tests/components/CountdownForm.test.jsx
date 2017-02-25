@@ -1,8 +1,8 @@
-var expect = require('expect');
-var React = require('react');
-var ReactDOM = require('react-dom');
-var TestUtils = require('react-addons-test-utils');
-var $ = require('jquery');
+const React = require('react'),
+      ReactDOM = require('react-dom'),
+      expect = require('expect'),
+      $ = require('jquery'),
+      TestUtils = require('react-addons-test-utils');
 var CountdownForm = require('CountdownForm');
 
 describe('CountdownForm', () => {
